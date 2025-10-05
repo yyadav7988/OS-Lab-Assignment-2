@@ -1,0 +1,28 @@
+System Startup, Process Creation, and Termination Simulation in Python
+Course: ENCS351 - Operating Systems
+
+Objective:
+To simulate system booting and process management using Python’s multiprocessing and logging modules.
+
+Implementation Summary:
+1. Configured logging to capture process events with timestamps.
+2. Defined a system_process() function to mimic process tasks.
+3. Spawned two concurrent processes to simulate parallel system startup.
+4. Ensured proper joining and clean shutdown, logging every step.
+
+Results:
+- The terminal prints system startup and shutdown messages.
+- The log file (process_log.txt) accurately records start and end times for each process.
+
+Concepts Demonstrated:
+- Process creation using multiprocessing.
+- Logging and monitoring of concurrent tasks.
+- System-like behavior simulation with clean process termination.
+
+Complexity:
+- Time complexity: O(n)
+- Space complexity: O(n)
+  (n = number of processes)
+
+Conclusion:
+The experiment successfully demonstrates how OS manages process creation, execution, and termination.
