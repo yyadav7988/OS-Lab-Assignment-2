@@ -4,6 +4,28 @@
 **Course:** ENCS351 — Operating Systems Lab  
 **Topic:** System Startup, Process Creation & Termination Simulation  
 
+
+
+Theory for Each Sub-Task
+🔹 Sub-Task 1 — Logging Configuration
+
+Theory:
+Logging captures real-time system activity. Using logging.basicConfig(), we record timestamps, process names, and messages into a log file to simulate a real OS boot log.
+
+🔹 Sub-Task 2 — Simulating a Process
+
+Theory:
+Each process represents a small unit of work. The dummy task (time.sleep(2)) simulates CPU/IO operations, while logging shows when it starts and ends — similar to how daemons start during system boot.
+
+🔹 Sub-Task 3 — Creating Processes
+
+Theory:
+The multiprocessing module spawns independent processes that run in parallel, mimicking concurrent services during system startup. Each process executes the same function with different arguments.
+
+🔹 Sub-Task 4 — Joining and Termination
+
+Theory:
+join() ensures that the main process waits for all child processes to finish before shutting down — preventing premature system termination and ensuring clean process completion.
 ---
 
 ## 📖 Overview
